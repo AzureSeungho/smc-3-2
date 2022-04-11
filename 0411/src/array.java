@@ -16,6 +16,7 @@ public class array {
 			if(max < arr[i]) {
 				max = arr[i];
 				j = i +1;
+				
 			}
 		}
 		System.out.println("가장 큰 수는 " + j + "번째 숫자인 " + max);
